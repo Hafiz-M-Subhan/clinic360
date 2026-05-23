@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="'Segoe UI', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f0f2f5"/>
+
+  <!-- Sidebar -->
+  <rect width="220" height="700" fill="#1a2236"/>
+  <rect x="0" y="0" width="220" height="64" fill="#141d30"/>
+  <circle cx="32" cy="32" r="14" fill="#3b82f6"/>
+  <text x="54" y="37" fill="white" font-size="16" font-weight="700">Clinic360</text>
+  <text x="54" y="50" fill="#64748b" font-size="10">Hospital Management</text>
+
+  <text x="24" y="106" fill="#94a3b8" font-size="13">Dashboard</text>
+  <text x="24" y="146" fill="#94a3b8" font-size="13">Appointments</text>
+  <text x="24" y="186" fill="#94a3b8" font-size="13">Patients</text>
+  <!-- Active -->
+  <rect x="0" y="198" width="220" height="40" fill="#3b82f6" rx="0"/>
+  <rect x="8" y="210" width="4" height="16" fill="white" rx="2"/>
+  <text x="24" y="223" fill="white" font-size="13" font-weight="600">Billing</text>
+
+  <text x="24" y="266" fill="#94a3b8" font-size="13">Doctors</text>
+  <text x="24" y="306" fill="#94a3b8" font-size="13">Staff</text>
+  <text x="24" y="346" fill="#94a3b8" font-size="13">Departments</text>
+  <text x="24" y="386" fill="#94a3b8" font-size="13">Rooms &amp; Beds</text>
+  <text x="24" y="426" fill="#94a3b8" font-size="13">Reports</text>
+  <text x="24" y="466" fill="#94a3b8" font-size="13">Settings</text>
+
+  <!-- Top bar -->
+  <rect x="220" y="0" width="980" height="64" fill="white"/>
+  <text x="244" y="38" fill="#1e293b" font-size="18" font-weight="700">Billing</text>
+  <text x="244" y="54" fill="#94a3b8" font-size="11">Track payments and outstanding invoices</text>
+  <circle cx="1158" cy="32" r="20" fill="#3b82f6"/>
+  <text x="1149" y="37" fill="white" font-size="12" font-weight="600">HS</text>
+
+  <!-- Summary cards -->
+  <rect x="244" y="80" width="220" height="90" fill="white" rx="10"/>
+  <rect x="244" y="80" width="5" height="90" fill="#22c55e" rx="3"/>
+  <text x="264" y="108" fill="#64748b" font-size="11">Total Collected</text>
+  <text x="264" y="145" fill="#1e293b" font-size="28" font-weight="700">$124,580</text>
+  <text x="264" y="162" fill="#22c55e" font-size="10">↑ May 2025</text>
+
+  <rect x="484" y="80" width="220" height="90" fill="white" rx="10"/>
+  <rect x="484" y="80" width="5" height="90" fill="#f59e0b" rx="3"/>
+  <text x="504" y="108" fill="#64748b" font-size="11">Outstanding</text>
+  <text x="504" y="145" fill="#1e293b" font-size="28" font-weight="700">$12,340</text>
+  <text x="504" y="162" fill="#f59e0b" font-size="10">17 unpaid bills</text>
+
+  <rect x="724" y="80" width="220" height="90" fill="white" rx="10"/>
+  <rect x="724" y="80" width="5" height="90" fill="#3b82f6" rx="3"/>
+  <text x="744" y="108" fill="#64748b" font-size="11">Paid Today</text>
+  <text x="744" y="145" fill="#1e293b" font-size="28" font-weight="700">$4,820</text>
+  <text x="744" y="162" fill="#3b82f6" font-size="10">11 transactions</text>
+
+  <rect x="964" y="80" width="216" height="90" fill="white" rx="10"/>
+  <rect x="964" y="80" width="5" height="90" fill="#8b5cf6" rx="3"/>
+  <text x="984" y="108" fill="#64748b" font-size="11">Avg Bill Value</text>
+  <text x="984" y="145" fill="#1e293b" font-size="28" font-weight="700">$398</text>
+  <text x="984" y="162" fill="#8b5cf6" font-size="10">across all bills</text>
+
+  <!-- Action bar -->
+  <rect x="244" y="186" width="936" height="44" fill="white" rx="8"/>
+  <rect x="260" y="197" width="260" height="24" fill="#f8fafc" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="278" y="213" fill="#94a3b8" font-size="12">Search by patient or bill #...</text>
+  <rect x="544" y="197" width="130" height="24" fill="#f8fafc" rx="12" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="562" y="213" fill="#94a3b8" font-size="12">All Status  ▾</text>
+  <!-- filter badges -->
+  <rect x="700" y="197" width="70" height="24" fill="#dcfce7" rx="12"/>
+  <text x="716" y="213" fill="#16a34a" font-size="11">Paid</text>
+  <rect x="780" y="197" width="84" height="24" fill="#fef9c3" rx="12"/>
+  <text x="790" y="213" fill="#ca8a04" font-size="11">Unpaid</text>
+  <rect x="1080" y="193" width="88" height="30" fill="#3b82f6" rx="8"/>
+  <text x="1092" y="213" fill="white" font-size="13" font-weight="600">+ New Bill</text>
+
+  <!-- Table -->
+  <rect x="244" y="244" width="936" height="426" fill="white" rx="10"/>
+  <rect x="244" y="244" width="936" height="36" fill="#f8fafc" rx="10"/>
+  <rect x="244" y="264" width="936" height="16" fill="#f8fafc"/>
+  <text x="268" y="268" fill="#94a3b8" font-size="11" font-weight="600">BILL #</text>
+  <text x="340" y="268" fill="#94a3b8" font-size="11" font-weight="600">PATIENT</text>
+  <text x="540" y="268" fill="#94a3b8" font-size="11" font-weight="600">AMOUNT</text>
+  <text x="640" y="268" fill="#94a3b8" font-size="11" font-weight="600">DATE</text>
+  <text x="760" y="268" fill="#94a3b8" font-size="11" font-weight="600">DUE DATE</text>
+  <text x="880" y="268" fill="#94a3b8" font-size="11" font-weight="600">STATUS</text>
+  <text x="1000" y="268" fill="#94a3b8" font-size="11" font-weight="600">REMINDER</text>
+  <text x="1120" y="268" fill="#94a3b8" font-size="11" font-weight="600">ACT.</text>
+
+  <!-- Row 1 — paid -->
+  <line x1="244" y1="280" x2="1180" y2="280" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="268" y="303" fill="#64748b" font-size="12">#B-0221</text>
+  <circle cx="356" cy="297" r="13" fill="#dbeafe"/>
+  <text x="349" y="301" fill="#1d4ed8" font-size="11" font-weight="600">AK</text>
+  <text x="376" y="300" fill="#1e293b" font-size="13">Ahmed Khan</text>
+  <text x="540" y="300" fill="#1e293b" font-size="13" font-weight="600">$420.00</text>
+  <text x="640" y="300" fill="#1e293b" font-size="12">15 May</text>
+  <text x="760" y="300" fill="#1e293b" font-size="12">22 May</text>
+  <rect x="874" y="288" width="40" height="20" fill="#dcfce7" rx="10"/>
+  <text x="882" y="302" fill="#16a34a" font-size="11">Paid</text>
+  <text x="1008" y="300" fill="#94a3b8" font-size="11">—</text>
+  <text x="1120" y="300" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 2 — unpaid, reminder sent -->
+  <line x1="244" y1="318" x2="1180" y2="318" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="268" y="341" fill="#64748b" font-size="12">#B-0222</text>
+  <circle cx="356" cy="335" r="13" fill="#fef3c7"/>
+  <text x="349" y="339" fill="#d97706" font-size="11" font-weight="600">FN</text>
+  <text x="376" y="338" fill="#1e293b" font-size="13">Fatima Noor</text>
+  <text x="540" y="338" fill="#1e293b" font-size="13" font-weight="600">$850.00</text>
+  <text x="640" y="338" fill="#1e293b" font-size="12">10 May</text>
+  <text x="760" y="338" fill="#dc2626" font-size="12">17 May !</text>
+  <rect x="874" y="326" width="56" height="20" fill="#fef9c3" rx="10"/>
+  <text x="882" y="340" fill="#ca8a04" font-size="11">Unpaid</text>
+  <rect x="1000" y="326" width="80" height="20" fill="#dbeafe" rx="10"/>
+  <text x="1007" y="340" fill="#1d4ed8" font-size="10">Sent 10:01am</text>
+  <text x="1120" y="338" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 3 — paid -->
+  <line x1="244" y1="358" x2="1180" y2="358" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="268" y="381" fill="#64748b" font-size="12">#B-0223</text>
+  <circle cx="356" cy="375" r="13" fill="#ede9fe"/>
+  <text x="350" y="379" fill="#7c3aed" font-size="11" font-weight="600">US</text>
+  <text x="376" y="378" fill="#1e293b" font-size="13">Umar Siddiqui</text>
+  <text x="540" y="378" fill="#1e293b" font-size="13" font-weight="600">$280.00</text>
+  <text x="640" y="378" fill="#1e293b" font-size="12">16 May</text>
+  <text x="760" y="378" fill="#1e293b" font-size="12">23 May</text>
+  <rect x="874" y="366" width="40" height="20" fill="#dcfce7" rx="10"/>
+  <text x="882" y="380" fill="#16a34a" font-size="11">Paid</text>
+  <text x="1008" y="378" fill="#94a3b8" font-size="11">—</text>
+  <text x="1120" y="378" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 4 — unpaid -->
+  <line x1="244" y1="398" x2="1180" y2="398" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="268" y="421" fill="#64748b" font-size="12">#B-0224</text>
+  <circle cx="356" cy="415" r="13" fill="#fce7f3"/>
+  <text x="350" y="419" fill="#be185d" font-size="11" font-weight="600">ZR</text>
+  <text x="376" y="418" fill="#1e293b" font-size="13">Zainab Raza</text>
+  <text x="540" y="418" fill="#1e293b" font-size="13" font-weight="600">$1,200.00</text>
+  <text x="640" y="418" fill="#1e293b" font-size="12">12 May</text>
+  <text x="760" y="418" fill="#dc2626" font-size="12">19 May !</text>
+  <rect x="874" y="406" width="56" height="20" fill="#fef9c3" rx="10"/>
+  <text x="882" y="420" fill="#ca8a04" font-size="11">Unpaid</text>
+  <rect x="1000" y="406" width="80" height="20" fill="#dbeafe" rx="10"/>
+  <text x="1007" y="420" fill="#1d4ed8" font-size="10">Sent 09:01am</text>
+  <text x="1120" y="418" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 5 — paid -->
+  <line x1="244" y1="438" x2="1180" y2="438" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="268" y="461" fill="#64748b" font-size="12">#B-0225</text>
+  <circle cx="356" cy="455" r="13" fill="#dcfce7"/>
+  <text x="350" y="459" fill="#15803d" font-size="11" font-weight="600">AB</text>
+  <text x="376" y="458" fill="#1e293b" font-size="13">Ali Baig</text>
+  <text x="540" y="458" fill="#1e293b" font-size="13" font-weight="600">$340.00</text>
+  <text x="640" y="458" fill="#1e293b" font-size="12">20 May</text>
+  <text x="760" y="458" fill="#1e293b" font-size="12">27 May</text>
+  <rect x="874" y="446" width="40" height="20" fill="#dcfce7" rx="10"/>
+  <text x="882" y="460" fill="#16a34a" font-size="11">Paid</text>
+  <text x="1008" y="458" fill="#94a3b8" font-size="11">—</text>
+  <text x="1120" y="458" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 6 — unpaid -->
+  <line x1="244" y1="478" x2="1180" y2="478" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="268" y="501" fill="#64748b" font-size="12">#B-0226</text>
+  <circle cx="356" cy="495" r="13" fill="#dbeafe"/>
+  <text x="350" y="499" fill="#1d4ed8" font-size="11" font-weight="600">MT</text>
+  <text x="376" y="498" fill="#1e293b" font-size="13">Maryam Tariq</text>
+  <text x="540" y="498" fill="#1e293b" font-size="13" font-weight="600">$560.00</text>
+  <text x="640" y="498" fill="#1e293b" font-size="12">09 May</text>
+  <text x="760" y="498" fill="#dc2626" font-size="12">16 May !</text>
+  <rect x="874" y="486" width="56" height="20" fill="#fef9c3" rx="10"/>
+  <text x="882" y="500" fill="#ca8a04" font-size="11">Unpaid</text>
+  <rect x="1000" y="486" width="80" height="20" fill="#dbeafe" rx="10"/>
+  <text x="1007" y="500" fill="#1d4ed8" font-size="10">Sent 09:01am</text>
+  <text x="1120" y="498" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Queue job note -->
+  <rect x="244" y="636" width="470" height="24" fill="#fef9c3" rx="12"/>
+  <text x="262" y="652" fill="#92400e" font-size="11">⚙ SendBillPaymentReminder job dispatched at 09:00 · 3 bills queued for reminders</text>
+
+  <!-- Pagination -->
+  <line x1="244" y1="625" x2="1180" y2="625" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="264" y="673" fill="#94a3b8" font-size="12">Showing 1–6 of 63 bills</text>
+  <rect x="1030" y="656" width="30" height="26" fill="#f1f5f9" rx="5"/>
+  <text x="1040" y="673" fill="#64748b" font-size="12">‹</text>
+  <rect x="1068" y="656" width="30" height="26" fill="#3b82f6" rx="5"/>
+  <text x="1078" y="673" fill="white" font-size="12">1</text>
+  <rect x="1106" y="656" width="30" height="26" fill="#f1f5f9" rx="5"/>
+  <text x="1116" y="673" fill="#64748b" font-size="12">2</text>
+  <rect x="1144" y="656" width="30" height="26" fill="#f1f5f9" rx="5"/>
+  <text x="1154" y="673" fill="#64748b" font-size="12">›</text>
+</svg>

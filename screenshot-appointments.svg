@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" font-family="'Segoe UI', Arial, sans-serif">
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#f0f2f5"/>
+
+  <!-- Sidebar -->
+  <rect width="220" height="700" fill="#1a2236"/>
+  <rect x="0" y="0" width="220" height="64" fill="#141d30"/>
+  <circle cx="32" cy="32" r="14" fill="#3b82f6"/>
+  <text x="54" y="37" fill="white" font-size="16" font-weight="700">Clinic360</text>
+  <text x="54" y="50" fill="#64748b" font-size="10">Hospital Management</text>
+
+  <text x="24" y="106" fill="#94a3b8" font-size="13">Dashboard</text>
+  <!-- Active nav item -->
+  <rect x="0" y="118" width="220" height="40" fill="#3b82f6" rx="0"/>
+  <rect x="8" y="130" width="4" height="16" fill="white" rx="2"/>
+  <text x="24" y="143" fill="white" font-size="13" font-weight="600">Appointments</text>
+
+  <text x="24" y="186" fill="#94a3b8" font-size="13">Patients</text>
+  <text x="24" y="226" fill="#94a3b8" font-size="13">Billing</text>
+  <text x="24" y="266" fill="#94a3b8" font-size="13">Doctors</text>
+  <text x="24" y="306" fill="#94a3b8" font-size="13">Staff</text>
+  <text x="24" y="346" fill="#94a3b8" font-size="13">Departments</text>
+  <text x="24" y="386" fill="#94a3b8" font-size="13">Rooms &amp; Beds</text>
+  <text x="24" y="426" fill="#94a3b8" font-size="13">Reports</text>
+  <text x="24" y="466" fill="#94a3b8" font-size="13">Settings</text>
+
+  <!-- Top bar -->
+  <rect x="220" y="0" width="980" height="64" fill="white"/>
+  <text x="244" y="38" fill="#1e293b" font-size="18" font-weight="700">Appointments</text>
+  <text x="244" y="54" fill="#94a3b8" font-size="11">Manage and track all patient appointments</text>
+  <circle cx="1158" cy="32" r="20" fill="#3b82f6"/>
+  <text x="1149" y="37" fill="white" font-size="12" font-weight="600">HS</text>
+
+  <!-- Action bar -->
+  <rect x="244" y="80" width="936" height="52" fill="white" rx="8"/>
+  <!-- Search box -->
+  <rect x="260" y="94" width="280" height="26" fill="#f8fafc" rx="13" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="278" y="112" fill="#94a3b8" font-size="12">Search patients, doctors...</text>
+  <!-- Date filter -->
+  <rect x="560" y="94" width="160" height="26" fill="#f8fafc" rx="13" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="580" y="112" fill="#94a3b8" font-size="12">May 2025  ▾</text>
+  <!-- Status filter -->
+  <rect x="740" y="94" width="140" height="26" fill="#f8fafc" rx="13" stroke="#e2e8f0" stroke-width="1"/>
+  <text x="758" y="112" fill="#94a3b8" font-size="12">All Statuses  ▾</text>
+  <!-- New button -->
+  <rect x="1060" y="90" width="104" height="32" fill="#3b82f6" rx="8"/>
+  <text x="1076" y="111" fill="white" font-size="13" font-weight="600">+ New</text>
+
+  <!-- Table -->
+  <rect x="244" y="148" width="936" height="520" fill="white" rx="10"/>
+  <!-- Table header -->
+  <rect x="244" y="148" width="936" height="40" fill="#f8fafc" rx="10"/>
+  <rect x="244" y="168" width="936" height="20" fill="#f8fafc"/>
+  <text x="274" y="174" fill="#94a3b8" font-size="11" font-weight="600">#</text>
+  <text x="310" y="174" fill="#94a3b8" font-size="11" font-weight="600">PATIENT</text>
+  <text x="490" y="174" fill="#94a3b8" font-size="11" font-weight="600">DOCTOR</text>
+  <text x="650" y="174" fill="#94a3b8" font-size="11" font-weight="600">CHECK-IN</text>
+  <text x="800" y="174" fill="#94a3b8" font-size="11" font-weight="600">CHECK-OUT</text>
+  <text x="950" y="174" fill="#94a3b8" font-size="11" font-weight="600">STATUS</text>
+  <text x="1110" y="174" fill="#94a3b8" font-size="11" font-weight="600">ACTION</text>
+
+  <!-- Row 1 -->
+  <line x1="244" y1="188" x2="1180" y2="188" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="274" y="210" fill="#64748b" font-size="12">#1042</text>
+  <circle cx="326" cy="204" r="14" fill="#dbeafe"/>
+  <text x="319" y="208" fill="#1d4ed8" font-size="11" font-weight="600">AK</text>
+  <text x="348" y="207" fill="#1e293b" font-size="13" font-weight="500">Ahmed Khan</text>
+  <text x="348" y="220" fill="#94a3b8" font-size="10">ahmed@email.com</text>
+  <text x="490" y="210" fill="#1e293b" font-size="13">Dr. Sara Malik</text>
+  <text x="650" y="207" fill="#1e293b" font-size="12">23 May, 09:00</text>
+  <text x="800" y="207" fill="#1e293b" font-size="12">23 May, 09:45</text>
+  <rect x="944" y="196" width="60" height="20" fill="#dcfce7" rx="10"/>
+  <text x="958" y="210" fill="#16a34a" font-size="11">Completed</text>
+  <text x="1110" y="210" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 2 -->
+  <line x1="244" y1="228" x2="1180" y2="228" stroke="#f1f5f9" stroke-width="1"/>
+  <circle cx="326" cy="244" r="14" fill="#ede9fe"/>
+  <text x="319" y="248" fill="#7c3aed" font-size="11" font-weight="600">FN</text>
+  <text x="274" y="248" fill="#64748b" font-size="12">#1043</text>
+  <text x="348" y="247" fill="#1e293b" font-size="13" font-weight="500">Fatima Noor</text>
+  <text x="348" y="260" fill="#94a3b8" font-size="10">fatima@email.com</text>
+  <text x="490" y="248" fill="#1e293b" font-size="13">Dr. Hamid Ali</text>
+  <text x="650" y="247" fill="#1e293b" font-size="12">23 May, 10:30</text>
+  <text x="800" y="247" fill="#94a3b8" font-size="12">—</text>
+  <rect x="944" y="236" width="52" height="20" fill="#dbeafe" rx="10"/>
+  <text x="954" y="250" fill="#1d4ed8" font-size="11">In Progress</text>
+  <text x="1110" y="248" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 3 -->
+  <line x1="244" y1="268" x2="1180" y2="268" stroke="#f1f5f9" stroke-width="1"/>
+  <circle cx="326" cy="284" r="14" fill="#fef3c7"/>
+  <text x="319" y="288" fill="#d97706" font-size="11" font-weight="600">US</text>
+  <text x="274" y="288" fill="#64748b" font-size="12">#1044</text>
+  <text x="348" y="287" fill="#1e293b" font-size="13" font-weight="500">Umar Siddiqui</text>
+  <text x="348" y="300" fill="#94a3b8" font-size="10">umar@email.com</text>
+  <text x="490" y="288" fill="#1e293b" font-size="13">Dr. Sara Malik</text>
+  <text x="650" y="287" fill="#1e293b" font-size="12">23 May, 11:00</text>
+  <text x="800" y="287" fill="#94a3b8" font-size="12">—</text>
+  <rect x="944" y="276" width="48" height="20" fill="#fef9c3" rx="10"/>
+  <text x="954" y="290" fill="#ca8a04" font-size="11">Pending</text>
+  <text x="1110" y="288" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 4 -->
+  <line x1="244" y1="308" x2="1180" y2="308" stroke="#f1f5f9" stroke-width="1"/>
+  <circle cx="326" cy="324" r="14" fill="#fce7f3"/>
+  <text x="319" y="328" fill="#be185d" font-size="11" font-weight="600">ZR</text>
+  <text x="274" y="328" fill="#64748b" font-size="12">#1045</text>
+  <text x="348" y="327" fill="#1e293b" font-size="13" font-weight="500">Zainab Raza</text>
+  <text x="348" y="340" fill="#94a3b8" font-size="10">zainab@email.com</text>
+  <text x="490" y="328" fill="#1e293b" font-size="13">Dr. Asif Khan</text>
+  <text x="650" y="327" fill="#1e293b" font-size="12">23 May, 14:00</text>
+  <text x="800" y="327" fill="#94a3b8" font-size="12">—</text>
+  <rect x="944" y="316" width="60" height="20" fill="#dcfce7" rx="10"/>
+  <text x="958" y="330" fill="#16a34a" font-size="11">Confirmed</text>
+  <text x="1110" y="328" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 5 -->
+  <line x1="244" y1="348" x2="1180" y2="348" stroke="#f1f5f9" stroke-width="1"/>
+  <circle cx="326" cy="364" r="14" fill="#dcfce7"/>
+  <text x="319" y="368" fill="#15803d" font-size="11" font-weight="600">AB</text>
+  <text x="274" y="368" fill="#64748b" font-size="12">#1046</text>
+  <text x="348" y="367" fill="#1e293b" font-size="13" font-weight="500">Ali Baig</text>
+  <text x="348" y="380" fill="#94a3b8" font-size="10">ali@email.com</text>
+  <text x="490" y="368" fill="#1e293b" font-size="13">Dr. Hamid Ali</text>
+  <text x="650" y="367" fill="#1e293b" font-size="12">22 May, 15:30</text>
+  <text x="800" y="367" fill="#1e293b" font-size="12">22 May, 16:15</text>
+  <rect x="944" y="356" width="52" height="20" fill="#fee2e2" rx="10"/>
+  <text x="950" y="370" fill="#dc2626" font-size="11">Cancelled</text>
+  <text x="1110" y="368" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 6 -->
+  <line x1="244" y1="388" x2="1180" y2="388" stroke="#f1f5f9" stroke-width="1"/>
+  <circle cx="326" cy="404" r="14" fill="#dbeafe"/>
+  <text x="319" y="408" fill="#1d4ed8" font-size="11" font-weight="600">MT</text>
+  <text x="274" y="408" fill="#64748b" font-size="12">#1047</text>
+  <text x="348" y="407" fill="#1e293b" font-size="13" font-weight="500">Maryam Tariq</text>
+  <text x="348" y="420" fill="#94a3b8" font-size="10">maryam@email.com</text>
+  <text x="490" y="408" fill="#1e293b" font-size="13">Dr. Sara Malik</text>
+  <text x="650" y="407" fill="#1e293b" font-size="12">24 May, 09:00</text>
+  <text x="800" y="407" fill="#94a3b8" font-size="12">—</text>
+  <rect x="944" y="396" width="60" height="20" fill="#dcfce7" rx="10"/>
+  <text x="958" y="410" fill="#16a34a" font-size="11">Confirmed</text>
+  <text x="1110" y="408" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Row 7 -->
+  <line x1="244" y1="428" x2="1180" y2="428" stroke="#f1f5f9" stroke-width="1"/>
+  <circle cx="326" cy="444" r="14" fill="#ede9fe"/>
+  <text x="319" y="448" fill="#7c3aed" font-size="11" font-weight="600">HM</text>
+  <text x="274" y="448" fill="#64748b" font-size="12">#1048</text>
+  <text x="348" y="447" fill="#1e293b" font-size="13" font-weight="500">Hassan Mirza</text>
+  <text x="348" y="460" fill="#94a3b8" font-size="10">hassan@email.com</text>
+  <text x="490" y="448" fill="#1e293b" font-size="13">Dr. Asif Khan</text>
+  <text x="650" y="447" fill="#1e293b" font-size="12">24 May, 11:30</text>
+  <text x="800" y="447" fill="#94a3b8" font-size="12">—</text>
+  <rect x="944" y="436" width="48" height="20" fill="#fef9c3" rx="10"/>
+  <text x="954" y="450" fill="#ca8a04" font-size="11">Pending</text>
+  <text x="1110" y="448" fill="#3b82f6" font-size="12">View</text>
+
+  <!-- Pagination -->
+  <line x1="244" y1="620" x2="1180" y2="620" stroke="#f1f5f9" stroke-width="1"/>
+  <text x="264" y="645" fill="#94a3b8" font-size="12">Showing 1–7 of 38 appointments</text>
+  <rect x="1030" y="628" width="30" height="26" fill="#f1f5f9" rx="5"/>
+  <text x="1040" y="645" fill="#64748b" font-size="12">‹</text>
+  <rect x="1068" y="628" width="30" height="26" fill="#3b82f6" rx="5"/>
+  <text x="1078" y="645" fill="white" font-size="12">1</text>
+  <rect x="1106" y="628" width="30" height="26" fill="#f1f5f9" rx="5"/>
+  <text x="1116" y="645" fill="#64748b" font-size="12">2</text>
+  <rect x="1144" y="628" width="30" height="26" fill="#f1f5f9" rx="5"/>
+  <text x="1154" y="645" fill="#64748b" font-size="12">›</text>
+</svg>

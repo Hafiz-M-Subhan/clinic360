@@ -2,7 +2,18 @@
 
 > A production-grade hospital management platform built with Laravel 10, Livewire, Redis caching, and a full queue/notification pipeline. Covers the full operational lifecycle of a clinic: patient management, appointments, billing, RBAC, and automated communications.
 
-![Front End](FrontEnd.png)
+---
+
+## Screenshots
+
+### Analytics Dashboard
+![Dashboard](screenshot-dashboard.svg)
+
+### Appointment Management
+![Appointments](screenshot-appointments.svg)
+
+### Billing Overview
+![Billing](screenshot-billing.svg)
 
 ---
 
@@ -145,13 +156,6 @@ Password: hafizsubhan
 | `app/Console/Kernel.php` | Scheduler — wires all jobs to cron |
 | `app/Http/Controllers/RoleController.php` | Full CRUD for roles + user assignment |
 | `app/Models/User.php` | `isAdmin()`, `isDoctor()`, `isReceptionist()`, `hasRole()` helpers |
-
----
-
-## Screenshots
-
-![Back End](admin-screenshot.png)
-![Database Tables](Tables_Screenshot.png)
 
 ---
 
